@@ -125,3 +125,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+TMDB_API_KEY = 'be914494d6d0238dd3101eeaf79b455d'
+TMDB_BASE_URL = 'https://api.themoviedb.org/3'

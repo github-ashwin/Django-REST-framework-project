@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from tmdb_sample.views import PopularMoviesView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -23,5 +24,5 @@ urlpatterns = [
     path('students/',include('students.urls')),
 
     # API Endpoints
-    path('api/v1/',include('api.urls'))
+    path('api/v1/',include('api.urls')),
 ]
